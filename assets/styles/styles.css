@@ -6,39 +6,54 @@ body {
 }
 
 a:link {
-  color: #db0a5b;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #000;
+  color: #fff;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 h1{
-  font-size:1.75rem;
+  font-size:2rem;
   padding:1rem;
 }
 
-h2 {
-  font-size:1.375rem;
+header{
+  margin-bottom:75px;
+  background:#000;
+  color:#fff;
+}
+main-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  font-size:1.125rem;
+main-nav-item {
+  font-weight: bold;
+  text-decoration: none;
+  padding:.5rem;
 }
 
-ol{
-  font-size:1.125rem;
+main-nav-item a {
+  text-decoration: none;
 }
 
-ul{
-  font-size:1.125rem;
-}
 
-h1,
-h2,
-p,
-ol,
-ul {
-  margin-bottom:1.5rem;
-  line-height:1.6rem;
+
+
+@media screen and (min-width: 640px){
+header{
+  display: flex;
+      align-items: center;  
+        justify-content: space-between; 
+}
+  main-nav-list {
+    display:flex;
+  }
 }
