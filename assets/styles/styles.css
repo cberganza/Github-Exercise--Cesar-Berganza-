@@ -23,6 +23,14 @@ h1{
   padding:1rem;
 }
 
+ul{
+  font-size:1.125rem;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+}
 header{
   margin-bottom:75px;
   background:#000;
@@ -37,7 +45,7 @@ main-nav-list {
 main-nav-item {
   font-weight: bold;
   text-decoration: none;
-  padding:.5rem;
+  padding:1rem;
 }
 
 main-nav-item a {
@@ -55,5 +63,6 @@ header{
 }
   main-nav-list {
     display:flex;
+    padding: 1rem;
   }
 }
