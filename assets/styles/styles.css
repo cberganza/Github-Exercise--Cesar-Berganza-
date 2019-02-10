@@ -19,18 +19,21 @@ a:link {
   text-decoration:none;
 }
 
+h1 {
+  font-size:2rem;
+  padding:0rem;
+  margin-left: 20px;
+}
+
 ul {
   font-size:1.125rem;
+  margin-right:15px;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
-}
-
-h1 {
-  font-size:2rem;
-  padding:1rem;
+  padding:.5rem;
 }
 
 header {
