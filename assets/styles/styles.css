@@ -21,19 +21,22 @@ a:link {
 
 h1 {
   font-size:2rem;
+  font-style: bold;
   padding:0rem;
   margin-left: 20px;
 }
 
 ul {
-  font-size:1.125rem;
+  font-size:1rem;
   margin-right:15px;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
-  padding:.5rem;
+  padding:.75rem;
+  font-style:italic;
+  font-family:"arial", serif;
 }
 
 header {
@@ -51,6 +54,7 @@ main-nav-item {
   font-weight: bold;
   text-decoration: none;
   padding:1rem;
+  color:#C0C0C0;
 }
 
 main-nav-item a {
