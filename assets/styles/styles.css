@@ -5,33 +5,35 @@ body {
   padding: 0;
 }
 
-a:link {
+a:visited {
+  text-decoration:none;
   color: #ffffff;
 }
 
 a:hover {
-  color: #fff;
+  text-decoration:none;
+  color: #FF0000;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
+a:link {
+  text-decoration:none;
 }
 
-h1{
+ul {
+  font-size:1.125rem;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+h1 {
   font-size:2rem;
   padding:1rem;
 }
 
-ul{
-  font-size:1.125rem;
-}
-
-li{
-  list-style-type: none;
-  display: inline-block;
-}
-header{
+header {
   margin-bottom:75px;
   background:#000;
   color:#fff;
@@ -56,13 +58,12 @@ main-nav-item a {
 
 
 @media screen and (min-width: 640px){
-header{
+header {
   display: flex;
       align-items: center;  
         justify-content: space-between; 
 }
   main-nav-list {
     display:flex;
-    padding: 1rem;
   }
 }
