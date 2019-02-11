@@ -85,10 +85,10 @@ footer {
 }
 
 .pictures {
-  border-radius: 2rem;
+  border-radius: .5rem;
   display: block;
   height: auto;
-  width: 50%;
+  width: 300px;
 }
 
 .container {
@@ -138,12 +138,11 @@ footer {
 
 .gallary {
   display:grid;
-  max-width: 300px;
-  grid-template-columns: repeat(3, 520px);
-  grid-template-rows: repeat(5, 430px);
-  grid-gap: 1rem;
+  max-width: 75%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: .5rem;
   margin-left: 100px;
-  margin-right: auto;
   margin-bottom: 100px;  
 }
 
@@ -161,3 +160,4 @@ header {
     display:flex;
   }
 }
+
