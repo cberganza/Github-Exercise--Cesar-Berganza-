@@ -26,6 +26,7 @@ h1 {
   font-style: bold;
   padding:0rem;
   margin-left: 20px;
+  font-family: 'Ultra', serif;
 }
 
 ul {
@@ -71,7 +72,36 @@ img {
   width: 50%;
 }
 
+.container {
+  margin: 0 auto;
+  max-width:820px;
+  padding:.75rem;
 
+}
+
+.bold-paragraph {
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.regular-paragraph {
+  font-size: 1.25rem;
+  font-family: 'arial', sans-serif;
+  line-height: 2rem;
+}
+
+footer {
+      margin: 0 auto;
+      max-width:820px;
+      padding:.75rem;
+      bottom: 0;
+      height: 60px;
+      border-top-width: 5px;
+      border-top-style: solid;
+      border-top-color: #FFF;
+    }
 
 
 @media screen and (min-width: 640px){
