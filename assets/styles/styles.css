@@ -16,10 +16,10 @@ a:visited {
 
 a:hover {
   text-decoration:none;
-  color: #FF0000;
+  color: #ff0000;
 }
 a:active {
-  text-decoration:none;
+  text-decoration:underline;
 }
 
 h1 {
@@ -88,7 +88,7 @@ footer {
   border-radius: 2rem;
   display: block;
   height: auto;
-  width: 100%;
+  width: 50%;
 }
 
 .container {
@@ -138,11 +138,11 @@ footer {
 
 .gallary {
   display:grid;
-  max-width: 100%;
+  max-width: 300px;
   grid-template-columns: repeat(3, 520px);
   grid-template-rows: repeat(5, 430px);
   grid-gap: 1rem;
-  margin-left: 220px;
+  margin-left: 100px;
   margin-right: auto;
   margin-bottom: 100px;  
 }
