@@ -85,7 +85,7 @@ footer {
 }
 
 .pictures {
-  border-radius: .5rem;
+  border-radius: 2rem;
   display: block;
   height: auto;
   width: 100%;
@@ -137,11 +137,12 @@ footer {
 
 .gallary {
   display:grid;
-  max-width: 75%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 600px);
-  grid-gap:1.5rem;
-  margin-left: 100px;  
+  max-width: 100%;
+  grid-template-columns: repeat(3, 520px);
+  grid-template-rows: repeat(5, 430px);
+  grid-gap: 1rem;
+  margin-left: 100px;
+  margin-bottom: 100px;  
 }
 
 figure {
