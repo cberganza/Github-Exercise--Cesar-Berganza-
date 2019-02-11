@@ -86,7 +86,7 @@ footer {
 
 .pictures {
   border-radius: .5rem;
-  display: block;
+  display: inline-block;
   height: auto;
   width: 100%;
 }
@@ -137,9 +137,15 @@ footer {
 
 .gallary {
   display:grid;
+  max-width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 600px);
   grid-gap:1rem;
 }
 
+figure {
+  margin:0;
+}
 
 @media screen and (min-width: 640px){
 header {
