@@ -137,10 +137,11 @@ footer {
 
 .gallary {
   display:grid;
-  max-width: 100%;
+  max-width: 750px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 600px);
-  grid-gap:1rem;
+  grid-gap:1.5rem;
+  margin-left: 100px;  
 }
 
 figure {
