@@ -22,6 +22,11 @@ a:active {
   text-decoration:underline;
 }
 
+body {
+  color: #404040;
+  font-family: sans-serif;
+}
+
 h1 {
   font-size:2rem;
   font-style: bold;
@@ -81,7 +86,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .pictures {
