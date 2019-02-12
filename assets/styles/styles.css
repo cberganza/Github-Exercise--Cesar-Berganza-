@@ -184,7 +184,6 @@ header {
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
-  margin-left: 100px;
   margin-bottom: 100px;
   margin-right: auto;  
 }
