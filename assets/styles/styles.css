@@ -182,7 +182,7 @@ header {
 }
 .gallary {
   display:grid;
-  grid-template-columns: repeat(3, 520px;
+  grid-template-columns: repeat(3, 520px);
   grid-gap: 20px, 20px;
   margin-bottom: 100px;
   margin-left: 40px;
