@@ -159,7 +159,6 @@ footer {
   display:grid;
   max-width: 70%;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   grid-gap: .5rem;
   margin-left: 10px;
   margin-bottom: 100px;
@@ -185,7 +184,6 @@ header {
   display:grid;
   max-width: 70%;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   grid-gap: 1rem;
   margin-left: 100px;
   margin-bottom: 100px;
